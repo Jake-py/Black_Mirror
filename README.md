@@ -31,7 +31,7 @@
 ## Установка
 
 ```bash
-git clone https://github.com/redice/Black_Mirror.git
+git clone https://github.com/Jake-py/Black_Mirror.git
 cd Black_Mirror
 
 python3 -m venv venv
