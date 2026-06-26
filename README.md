@@ -110,7 +110,9 @@ class MyChecker:
     def run_all_checks(self) -> list:
         return [self.check_something()]
 ```
-
+# SECURITY NOTE: this reads private key material locally to check passphrase status.
+# Requires explicit user confirmation before running. Do not call this from automated
+# scan pipelines or remote contexts.
 Зарегистрировать в `core/runner.py` — добавить в список checkers.
 
 ---
@@ -128,3 +130,5 @@ MIT — см. [LICENSE](LICENSE)
 Автор: **RED ICE** · Kali Linux · 2026
 
 </div>
+
+
